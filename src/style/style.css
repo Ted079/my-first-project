@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor:context-menu;
+}
+body{
+    background:#f0f0f0;
+}
+
+.container, .container-darkgreen {
+    max-width: 100%;
+    margin: 20px 73px 90px;
+    
+    background: #f0f0f0;
+}
+
+.wrapper, .wrapper-for-sec1, .wrapper-for-sec3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block1{
+    width: 546px;
+    height: 516px;  
+    position: relative;
+}
+
+
+.div-for-img{
+    max-width: 546px;
+}
+
+.main-img, .main-img2{
+    width: 100%;
+}
+
+
+
+.position-updated, .position-overview, .position-updated-for-sec1, .position-clinet-for-sec1, .position-overview-sec4, .position-sec4-column3, .position-updated-for-sec4{
+    width: 264px;
+    background-color: white;
+    display: flex;
+    border-radius: 7px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.line{
+    height:89px;
+    margin: 1px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+}
+
+.grey-line-height-6px, .grey-line-height-6px-short, .darkgreen-line, .darkgreen-short{
+    width: 167px;
+    height: 6.73px;
+    background: rgba(32, 72, 79, 0.1);
+    border-radius: 7px;
+}
+.grey-line-height-6px-short{
+    width: 111px;
+}
+
+.check-mark{
+    margin: 17px 14px 38px;
+}
+
+.project-upt, .project-ovr, .step-one, .p-215-clinets, .project-ovr-4{
+    margin: 17px 0 9px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.project-upt::before{
+    content: url(../../public/main/Checkmark.svg);
+    position:absolute;
+    left: -57px;
+}
+
+.position-overview, .position-overview-sec4{
+   position: absolute;
+   left: -40px;
+   top: 165px;
+   display: flex;
+   flex-direction: column; 
+}
+
+.project-ovr{
+    font-size: 18px;
+    margin-left: 24px;
+}
+
+.step-one{
+    font-size: 13px;
+    margin: 14px 24px 15px;
+
+}
+.position-overview {
+    width: 210px;
+}
+
+.grey-line, .grey-line-long, .grey-line-small, .green-button, .grey-line-margin-24px {
+    width: 114px;
+    height: 8.56px;
+    border-radius: 8px;
+    background: rgba(32, 72, 79, 0.1);
+    margin:9px 24px;
+}
+.grey-line-long {
+    width: 134px;
+}
+.grey-line-small{
+    width: 58px;
+}
+
+.grey-line-margin-24px, .grey-line-small{
+    margin: 9px 41px;
+    position: relative;
+}
+
+.grey-line-small::before, .grey-line-margin-24px::before{
+    content: url(../../public/main/small-icons/Checkmark.svg);
+    position: absolute;
+    top: -4px;
+    left: -23px;
+}
+
+.green-button {
+    width: 168px;
+    height: 27px;
+    background-color: #B8E4DA;
+    margin-bottom: 21px;
+}
+
+h1, h2, h3, h4, h5, h6, button, .color-darkgreen, .color-dark, .p-size-40px, .sec3-title, .p-sec4-size24px{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 32px; 
+    font-weight: 700;
+    line-height: 41px;
+}
+.p-block2, .p-block2-margin-12px, .p-sec2-block2, .p-grid, .p-table, .p-sec4-table, .p-sec8{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height:27px;
+    margin: 18px 10px;
+}
+h2, .p-sec4-size24px {
+    font-size: 24px;
+    margin:36px 0 0 10px;
+    line-height: 30px;
+    position: relative;
+}
+.p-block2-margin-12px{
+    margin-top: 10px;
+}
+.p-block2-margin-70px{
+    margin-left: 65px;
+   
+}
+h2::before{
+    content: url(../../public/main/Icon\ Check.svg);
+    position: absolute;
+    left: -66px;
+}
+/* ===========================section1====================================== */
+.position-updated-for-sec1{
+    left: 0px;
+    top: 380px;
+}
+.position-clinet-for-sec1{
+    right: -20px;
+    top: 58px;
+    background-color:  #20484F;
+}
+
+.darkgreen-line {
+    background: #DCF2ED;
+}
+.darkgreen-short {
+    width: 111px;
+    background-color: #DCF2ED;
+}
+.p-215-clinets{
+    color: #DCF2ED;
+}
+.p-215-clinets::before{
+    content: url(../../public/section1/trending_up.svg);
+    position:absolute;
+    left: -57px;
+}
+.p-sec2-block2, .p-sec4-table {
+    margin: 20px 0 0 0 ;
+}
+
+.grid{
+    margin: 20px 0 0 0 ;
+    display: grid;
+    grid-template-areas:
+    "gri-1 grid-2"
+    "grid-3 grid-4";
+    grid-gap:45px;
+    width: 563px;
+}
+#grid-1, #grid-2, #grid-3, #grid-4{
+    position: relative;
+}
+h3, h5, button, .color-darkgreen, .color-dark {
+    margin: 65px 0 0 0 ;
+    font-size: 18px;
+    line-height: 25px;
+
+}
+.p-grid, .p-table{
+    font-size: 16px;
+    margin: 12px 0 0 0;
+}
+#grid-1::before{
+    content: url(../../public/section1/grid-icon/Icon\ 1.svg);
+    position:absolute;
+}
+#grid-2::before{
+    content: url(../../public/section1/grid-icon/Icon\ 2.svg);
+    position:absolute;
+}
+#grid-3::before{
+    content: url(../../public/section1/grid-icon/Icon\ 3d.svg);
+    position:absolute;
+}
+#grid-4::before{
+    content: url(../../public/section1/grid-icon/Icon\ 4andr.svg);
+    position:absolute;
+}
+
+/* =======================section3============================================= */
+.wrapper2, .wrapper2-bg-darkgreen{
+   padding: 50px 0;
+}
+h4, h5 ,button {
+    color: white;
+}
+
+.p-table {
+    color: white;
+}
+.table-wrap{
+    display: flex;
+    gap: 50px;
+    margin-top: 59px;
+}
+
+.p-sec4-table{
+    color: white;
+}
+.d-for-responsive-column{
+    display: flex;
+    gap:40px;
+}
+.table-1, .table-2, .table-3, .table-4 {
+    position: relative;
+}
+
+.table-1::before, .table-2::before, .table-3::before, .table-4::before{
+    content: url(../../public/section1/table-icon/Frame\ 20-1.svg);
+    position:absolute;
+}
+.table-2::before{
+    content: url(../../public/section1/table-icon/Frame\ 21.svg);
+}
+.table-3::before{
+    content: url(../../public/section1/table-icon/Frame\ 22.svg);
+}
+.table-4::before{
+    content: url(../../public/section1/table-icon/Frame\ 23.svg);
+}
+/* ===============================section4==================== */
+
+.sec3-title {
+    text-align: center;
+    margin-bottom: 82px;
+}
+
+.info-column{
+    height: 485px;
+    position: relative;
+    text-align: center;
+}
+.block-sec4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img-s4 {
+    position: static;
+}
+
+.position-overview-sec4, .position-sec4-column3{
+    left: 50px;
+    top: 50px;
+}
+
+.position-updated-for-sec4{
+    top:100px;
+    left: -13px;
+    width: 370px;
+    height: 130px;
+}
+
+.position-sec4-column3{
+    width: 200px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.project-ovr-4{
+    font-size: 20px;
+    margin-top: 16px;
+    position: relative;
+}
+.img-avatar {
+    position: static;
+    margin-top: 30px;
+}
+/* ===============================section5bgdarkgreen==================== */
+.section-bg-darkgreen, .wrapper2-bg-darkgreen {
+    background-color: #20484F;
+}
+
+.img-waves {
+    height: 34px;
+    background-image: url(../../public/section-4bg-darkgreen/Style=Four\ Column\ Icon\ Block\ Dark.svg);
+    background-color: #f0f0f0;
+}
+
+/* ===============================section6==================== */
+.wrapper-for-sec3{
+    background-image: none;
+}
+
+h6, .p-size-40px {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+button{
+    width: 136px;
+    height: 58px;
+    background-color:#20484F;
+    border: none;
+    border-radius: 8px;
+}
+button:hover {
+    opacity: 0.80;
+}
+
+/* ===============================section7==================== */
+.color-darkgreen, .color-dark {
+    color:#20484F;
+    line-height:35px;
+}
+
+.color-dark {
+    color: #072125;
+    padding-left: 50px;
+}
+hr{
+    margin: 37px 0 7px 0;
+    max-width: 375px;
+}
+.block-sec7{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.sec6-line {
+    width: 387px;
+    margin-top: 60px;
+    position: relative;
+}
+img {
+    position: absolute;  
+}
+/* ==============================section8======================================== */
+.wrapper-sec8{
+    display: flex;
+    gap: 80px;
+}
+.p-size-40px {
+    margin-top: 30px;
+}
